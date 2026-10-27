@@ -1,0 +1,679 @@
+{
+  "karty_zdarzen": [
+    {
+      "id": 1,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Menedżer Haseł",
+      "opis": "Używasz unikalnych i skomplikowanych haseł do wszystkich kont.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 2,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Klucz U2F",
+      "opis": "Zabezpieczyłeś swoje konto fizycznym kluczem zabezpieczającym.",
+      "punkty": 3,
+      "tury": 0
+    },
+    {
+      "id": 3,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Uwierzytelnianie 2FA",
+      "opis": "Aplikacja autoryzacyjna zatrzymała próbę nieautoryzowanego logowania.",
+      "punkty": 2,
+      "tury": 3
+    },
+    {
+      "id": 4,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Szybka Zmiana Hasła",
+      "opis": "Zauważyłeś niepokojącą aktywność i natychmiast zresetowałeś hasło.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 5,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Skan Antywirusowy",
+      "opis": "Program wykrył złośliwe oprogramowanie przed jego uruchomieniem.",
+      "punkty": 0,
+      "tury": 2
+    },
+    {
+      "id": 6,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Alert Bankowy",
+      "opis": "Infolinia banku powstrzymała podejrzany przelew na fałszywym portalu.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 7,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Świadomy Internauta",
+      "opis": "Zgłosiłeś podejrzaną wiadomość do zespołu CERT Polska.",
+      "punkty": 0,
+      "tury": 3
+    },
+    {
+      "id": 8,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Kopia Zapasowa",
+      "opis": "Regularnie tworzysz kopie zapasowe swoich najważniejszych plików.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 9,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Fałszywy SMS od Kuriera",
+      "opis": "Kliknąłeś w link dotyczący rzekomej dopłaty do paczki.",
+      "punkty": -2,
+      "tury": -3
+    },
+    {
+      "id": 11,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Pobranie Cheatów",
+      "opis": "Pobrałeś darmowe modyfikacje z niesprawdzonego źródła i zainstalowałeś keyloggera.",
+      "punkty": -2,
+      "tury": -1
+    },
+    {
+      "id": 13,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Podejrzany Quiz",
+      "opis": "Wypełniłeś quiz i udostępniłeś mu pełne prawa do swoich kontaktów.",
+      "punkty": -2,
+      "tury": -2
+    },
+    {
+      "id": 14,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Phishingowy E-mail",
+      "opis": "Otworzyłeś załącznik z nieznanej wiadomości o rzekomej fakturze.",
+      "punkty": -1,
+      "tury": -1
+    },
+    {
+      "id": 15,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Otwarte Wi-Fi",
+      "opis": "Korzystałeś z bankowości internetowej w otwartej sieci w kawiarni.",
+      "punkty": -2,
+      "tury": -3
+    },
+    {
+      "id": 18,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Złośliwy Plik",
+      "opis": "Pobrałeś zainfekowany plik z niesprawdzonego źródła.",
+      "punkty": -2,
+      "tury": -1
+    },
+    {
+      "id": 19,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Złośliwe Rozszerzenie",
+      "opis": "Zainstalowałeś niesprawdzoną wtyczkę w przeglądarce internetowej.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 20,
+      "typ": "Przeszkoda",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Duplikat SIM",
+      "opis": "Przejęto Twój numer telefonu poprzez wyłudzenie duplikatu karty SIM.",
+      "punkty": -2,
+      "tury": -1
+    },
+    {
+      "id": 21,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Fact-Checking",
+      "opis": "Zweryfikowałeś informację w serwisie weryfikującym fakty przed jej udostępnieniem.",
+      "punkty": 3,
+      "tury": 2
+    },
+    {
+      "id": 22,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Cyfrowy Detoks",
+      "opis": "Przeznaczyłeś weekend na odpoczynek od ekranów i mediów społecznościowych.",
+      "punkty": 2,
+      "tury": 1
+    },
+    {
+      "id": 23,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Różnorodne Źródła",
+      "opis": "Zapoznałeś się z opiniami przedstawiającymi odmienny punkt widzenia.",
+      "punkty": 2,
+      "tury": 2
+    },
+    {
+      "id": 24,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Reakcja na Hejt",
+      "opis": "Zgłosiłeś obraźliwy komentarz do moderacji serwisu.",
+      "punkty": 2,
+      "tury": 1
+    },
+    {
+      "id": 25,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Higiena Algorytmu",
+      "opis": "Zresetowałeś historię wyszukiwania, aby oczyścić polecane treści.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 26,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Rozpoznany Deepfake",
+      "opis": "Zauważyłeś błędne detale w wygenerowanym komputerowo nagraniu wideo.",
+      "punkty": 3,
+      "tury": 0
+    },
+    {
+      "id": 27,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Opanowanie",
+      "opis": "Nie dałeś się wciągnąć w prowokacyjną dyskusję w komentarzach.",
+      "punkty": 2,
+      "tury": 3
+    },
+    {
+      "id": 28,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Limit Czasowy",
+      "opis": "Utrzymałeś założony dzienny limit korzystania z aplikacji mobilnych.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 29,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Doomscrolling",
+      "opis": "Marnowałeś czas na czytanie przygnębiających wiadomości do późna w nocy.",
+      "punkty": -2,
+      "tury": -1
+    },
+    {
+      "id": 30,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Udostępnienie Clickbaitu",
+      "opis": "Podawałeś dalej Artykuł o sensacyjnym tytule bez czytania jego treści.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 32,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Komora Echa",
+      "opis": "Zablokowałeś odmienne poglądy, otaczając się wyłącznie własnymi opiniami.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 33,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Bezowocna Dyskusja",
+      "opis": "Straciłeś czas na przekonywanie osoby nieprzyjmującej żadnych faktów.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 34,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Kłótnia w Sieci",
+      "opis": "Naskoczyłeś na innego użytkownika pod wpływem emocji.",
+      "punkty": -2,
+      "tury": -3
+    },
+    {
+      "id": 35,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Fałszywy Cytat",
+      "opis": "Opublikowałeś grafikę z przypisaną słynnej osobie zmyśloną wypowiedzią.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 36,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Prowokacja",
+      "opis": "Spędziłeś godziny na kłótni z anonimowym kontem.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 37,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Presja Czasu (FOMO)",
+      "opis": "Kupiłeś zbędny przedmiot z powodu szybko odliczającego zegara wyprzedaży.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 38,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Sfałszowany Sondaż",
+      "opis": "Modyfikowany wykres na forum wprowadził Cię w błąd.",
+      "punkty": -1,
+      "tury": 0
+    },
+    {
+      "id": 40,
+      "typ": "Przeszkoda",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Rozproszenie Uwagi",
+      "opis": "Ciągłe powiadomienia odciągały Cię od wykonywania zadań.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 41,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Wykrycie Farma Botów",
+      "opis": "Zidentyfikowałeś siatkę automatów publikujących masowe wpisy.",
+      "punkty": 3,
+      "tury": 3
+    },
+    {
+      "id": 42,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Zgłoszenie Strony",
+      "opis": "Zgłosiłeś niebezpieczny portal do odpowiednich rejestrów.",
+      "punkty": 3,
+      "tury": 2
+    },
+    {
+      "id": 43,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Blokada Hejtu",
+      "opis": "Zablokowałeś konta agresywnie atakujące innych użytkowników.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 44,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Wykrycie Sztucznego Ruchu",
+      "opis": "Dostrzegłeś, że dyskusja jest opłacona przez zewnętrzną agencję.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 45,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Zgłoszenie Zagrożenia",
+      "opis": "Powiadomiłeś odpowiednie służby o groźbach wykrytych w sieci.",
+      "punkty": 3,
+      "tury": 0
+    },
+    {
+      "id": 46,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Ostrzeżenie Grupy",
+      "opis": "Ostrzegłeś znajomych przed nowym oszustwem krążącym w wiadomościach.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 47,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Weryfikacja Grafiki",
+      "opis": "Sprawdziłeś pochodzenie zdjęcia w wyszukiwarce obrazu i odkryłeś podróbkę.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 49,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Podrobiony Numer",
+      "opis": "Odebrałeś telefon od oszusta podszywającego się pod zaufaną instytucję.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 50,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Review Bombing",
+      "opis": "Aplikacja, z której korzystasz, została zalana fałszywymi negatywnymi ocenami.",
+      "punkty": -1,
+      "tury": 0
+    },
+    {
+      "id": 51,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Podmiana Strony",
+      "opis": "Serwis, na którym się uczyłeś, został podmieniony przez osoby nieuprawnione.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 52,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Przerwa w Działaniu",
+      "opis": "Serwer gry został przeciążony i przestał odpowiadać.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 53,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Fałszywy Konkurs",
+      "opis": "Wziąłeś udział w fikcyjnym konkursie podszywającym się pod znaną markę.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 54,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Syntetyczny Głos",
+      "opis": "Odebrałeś połączenie wykorzystujące sklonowany głos w celu wyłudzenia.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 55,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Manipulacja Informacją",
+      "opis": "Uwierzysz w przekaz tworzony przez fałszywe konta w mediach społecznościowych.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 56,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Wiadomość z Szantażem",
+      "opis": "Otrzymałeś fałszywą wiadomość żądającą opłaty pod groźbą wycieku danych.",
+      "punkty": 0,
+      "tury": -1
+    },
+    {
+      "id": 58,
+      "typ": "Przeszkoda",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Rozmowa z Botem",
+      "opis": "Prowadziłeś długą dyskusję z automatycznym modelem językowym.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 59,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Kryptoreklama",
+      "opis": "Dostrzegłeś brak oznaczenia sponsorowanego wpisu u twórcy internetowego.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 60,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Zgłoszenie do Urzędu",
+      "opis": "Zgłosiłeś przypadek promowania niebezpiecznych produktów bez oznaczeń.",
+      "punkty": 3,
+      "tury": 0
+    },
+    {
+      "id": 61,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Minimalne Uprawnienia",
+      "opis": "Odrzuciłeś niepotrzebne zgody na dostęp do mikrofonu w prostej aplikacji.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 62,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Czyszczenie Śladów",
+      "opis": "Usunąłeś zbędne pliki ciasteczek ze swojej przeglądarki.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 63,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Ochrona Wizerunku",
+      "opis": "Zadbano o usunięcie Twoich archiwalnych zdjęć z otwartego profilu.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 64,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Lektura Regulaminu",
+      "opis": "Przeczytałeś warunki ochrony prywatności przed instalacją nowego programu.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 65,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Odrzucenie Oferty",
+      "opis": "Nie skusiłeś się na polecenie produktu niskiej jakości od popularnej osoby.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 67,
+      "typ": "Przeszkoda",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Fałszywy Ekspert",
+      "opis": "Uwierzyłeś w specjalistyczne porady medyczne od osoby bez wykształcenia.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 70,
+      "typ": "Przeszkoda",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Pobranie Odcisku",
+      "opis": "Unikalna konfiguracja Twojego sprzętu została zebrana przez skrypty śledzące.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 72,
+      "typ": "Przeszkoda",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Przekazanie Wizerunku",
+      "opis": "Przesłałeś zdjęcie twarzy do aplikacji przyznając jej bezterminowe prawa.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 75,
+      "typ": "Przeszkoda",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Dawny Wpis",
+      "opis": "Archiwalny, niestosowny komentarz sprzed lat wpłynął na Twoją ocenę.",
+      "punkty": -2,
+      "tury": 0
+    },
+    {
+      "id": 76,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Naprawa: Wyłudzenie na BLIK",
+      "opis": "Uniknąłeś sytuacji związanej z: wyłudzenie na blik.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 77,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Naprawa: Przejęcie Ciasteczek",
+      "opis": "Uniknąłeś sytuacji związanej z: przejęcie ciasteczek.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 78,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Naprawa: Słabe Hasło",
+      "opis": "Uniknąłeś sytuacji związanej z: słabe hasło.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 79,
+      "typ": "Niespodzianka",
+      "kategoria": "Bezpieczeństwo i Phishing",
+      "tytul": "Naprawa: Fikcyjny Sklep",
+      "opis": "Uniknąłeś sytuacji związanej z: fikcyjny sklep.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 80,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Naprawa: Skrajne Treści",
+      "opis": "Uniknąłeś sytuacji związanej z: skrajne treści.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 81,
+      "typ": "Niespodzianka",
+      "kategoria": "Algorytmy i Dezinformacja",
+      "tytul": "Naprawa: Sianie Paniki",
+      "opis": "Uniknąłeś sytuacji związanej z: sianie paniki.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 82,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Naprawa: Nalot Trolli",
+      "opis": "Uniknąłeś sytuacji związanej z: nalot trolli.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 83,
+      "typ": "Niespodzianka",
+      "kategoria": "Trolle i Boty",
+      "tytul": "Naprawa: Fałszywa Infolinia",
+      "opis": "Uniknąłeś sytuacji związanej z: fałszywa infolinia.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 84,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Piramida Finansowa",
+      "opis": "Uniknąłeś sytuacji związanej z: piramida finansowa.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 85,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Upublicznienie Danych",
+      "opis": "Uniknąłeś sytuacji związanej z: upublicznienie danych.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 86,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Niebezpieczny Trend",
+      "opis": "Uniknąłeś sytuacji związanej z: niebezpieczny trend.",
+      "punkty": 2,
+      "tury": 0
+    },
+    {
+      "id": 87,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Płatna Subskrypcja",
+      "opis": "Uniknąłeś sytuacji związanej z: płatna subskrypcja.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 88,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Udostępnienie Dokumentu",
+      "opis": "Uniknąłeś sytuacji związanej z: udostępnienie dokumentu.",
+      "punkty": 1,
+      "tury": 0
+    },
+    {
+      "id": 89,
+      "typ": "Niespodzianka",
+      "kategoria": "Influencerzy i Prywatność",
+      "tytul": "Naprawa: Fikcyjna Relacja",
+      "opis": "Uniknąłeś sytuacji związanej z: fikcyjna relacja.",
+      "punkty": 2,
+      "tury": 0
+    }
+  ]
+}
