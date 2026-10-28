@@ -1,19 +1,22 @@
 #pragma once
 
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
+
 // ============================================================================
-//  STALE
+//  STAŁE
 // ============================================================================
 constexpr int FRAME_RATE = 60;
 const sf::Vector2u WINDOWS_SIZE{1920, 1080};
 
 constexpr int MAX_NICK_LENGTH = 12;
-constexpr float ROLL_DURATION = 0.9f; // czas animacji rzutu kostka (s)
-constexpr float STEP_TIME = 0.28f;    // czas przejscia o jedno pole (s)
+constexpr float ROLL_DURATION = 0.9f; // czas animacji rzutu kostką (s)
+constexpr float STEP_TIME = 0.28f;    // czas przejścia o jedno pole (s)
 
 // --- zasady gry ---
 constexpr int LEVEL_COUNT = 3;                              // 3 plansze
 constexpr int LEVEL_THRESHOLDS[LEVEL_COUNT] = {20, 35, 45}; // sumy skumulowane: plansza 1 = 20 pkt, plansza 2 = 15 pkt, plansza 3 = 10 pkt
-constexpr int BONUS_ROLL_EVERY = 15;                        // co tyle punktow gracz dostaje dodatkowy rzut
+constexpr int BONUS_ROLL_EVERY = 15;                        // co tyle punktów gracz dostaje dodatkowy rzut
 constexpr int MAX_SKULLS_LAST_LEVEL = 2;                    // maks. liczba czaszek na ostatniej planszy
 const char* const QUESTIONS_PATH = "resources/questions.json";
 
@@ -76,6 +79,8 @@ void spawnCyberParticles(sf::Vector2f center, int count, bool explosion = false)
 
         cyberParticles.push_back(p);
     }
+
+
 }
 
 void updateCyberParticles(float dt)
@@ -199,7 +204,7 @@ void loadEffects()
         if (buffer.loadFromFile("resources/sounds/" + name + ".wav"))
             effects.try_emplace(name, buffer);
         else
-            std::cerr << "Brak efektu dzwiekowego: " << name << '\n';
+            std::cerr << "Brak efektu dźwiękowego: " << name << '\n';
     }
 }
 
@@ -211,6 +216,8 @@ struct Button
     sf::Text text;
 
     explicit Button(const sf::Font& font) : text(font) {}
+
+
 };
 
 std::map<std::string, Button> buttons;
@@ -236,5 +243,5 @@ std::mt19937& rng()
 
 int rollDice()
 {
-    return std::uniform_int_distribution<int>(1, 6)(rng());
+    return std::uniform_int_distribution(1, 6)(rng());
 }
