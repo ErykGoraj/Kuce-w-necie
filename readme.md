@@ -3,7 +3,7 @@
 Gra zręcznościowa/sieciowa napisana w C++ (Qt / SFML).
 
 ## Pobieranie i instalacja
-1. Wejdź w sekcję [Installer](https://github.com/ErykGoraj/Kuce-w-necie/installer).
+1. Wejdź w sekcję [Installer](https://github.com/ErykGoraj/[Kuce-w-necie/installer](https://github.com/ErykGoraj/Kuce-w-necie/tree/main/installer)).
 
 2. Pobierz plik `Kucyki_Setup.exe`.
 
